@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <title>Practicalized DOM</title>
+</head>
+<body>
+    <div class="product-card">
+        <div class="product-image">
+            <!--<img src="images/blackbenz.webp" alt="black-benz">--> 
+        </div>
+
+        <div class="product-description">
+            <h3 class="tag">Car</h3>
+            <h1 class="product-title">Mercedes Benz GLE 2020</h1>
+            <p class="product-details">
+                <span class="mileage">
+                    <span class="icon"><i class="fa-solid fa-car"></i></span>
+                    Mileage: 4,000 miles
+                </span>
+                <span class="fuel">
+                    <span class="icon"><i class="fa-solid fa-gas-pump"></i></span>
+                    Fuel: 25mpg
+                </span>
+                <span class="safety">
+                    <span class="icon"><i class="fa-solid fa-shield"></i></span>
+                    Safety:
+                    <span class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </span>
+                </span>
+            </p>
+            <p>Pick a color:</p>
+            <div class="colors-price">
+                <div class="colors">
+                    <span class="color red"></span>
+                    <span class="color black"></span>
+                    <span class="color white"></span>
+                </div>
+                <div class="pricing">
+                    <h2 class="new-price">$149,654</h2>
+                    <h4 class="old-price">$207,654</h4>
+                </div>
+            </div>
+            <button id="button">
+                <span class="icon"><i class="fa-solid fa-cart-shopping"></i></span>
+                <span class="button-text">Add To Cart</span>
+            </button>
+            <button class="feedback">
+                <span id="white-button">🥳︎ Woohoo, you are about to own a benz!!!</span>
+            </button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

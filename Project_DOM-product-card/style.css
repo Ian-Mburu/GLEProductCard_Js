@@ -1,0 +1,170 @@
+* {
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite;
+    overflow: hidden;
+}
+
+/* Product Card Styling */
+.product-card {
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.product-image {
+    background-image: url(./images/blackbenz.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 200px;
+}
+
+.product-description {
+    background-color: #62c256;
+    color: #fff;
+    padding: 20px;
+    flex-grow: 1;
+}
+
+/* Tag */
+.tag {
+    font-size: 14px;
+    background-color: #000;
+    border-radius: 3px;
+    padding: 2px 8px;
+    display: inline-block;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+/* Product Title */
+.product-title {
+    font-size: 20px;
+    font-weight: 600;
+    margin: 10px 0;
+}
+
+/* Product Details */
+.product-details {
+    margin-bottom: 15px;
+}
+
+.product-details span {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.product-details .icon {
+    font-size: 16px;
+    color: #fff;
+    margin-right: 8px;
+}
+
+/* Stars */
+.stars {
+    color: yellow;
+    font-size: 14px;
+    margin-left: 5px;
+}
+
+/* Color Selection and Pricing */
+.colors-price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px 0;
+}
+
+.colors {
+    display: flex;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.color {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+}
+
+.red {
+    background: red;
+}
+
+.black {
+    background: black;
+}
+
+.white {
+    background: white;
+}
+
+/* Pricing */
+.pricing {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.new-price {
+    font-size: 22px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.old-price {
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: line-through;
+    color: #e0e0e0;
+}
+
+/* Button Styling */
+#button {
+    background-color: #000;
+    color: #fff;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    margin-top: 10px;
+    width: 100%;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+
+#button:hover {
+    background-color: #534e4e;
+}
+
+/* Feedback Message */
+.feedback {
+    display: none;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    background-color: #fff;
+    color: #000;
+    text-align: center;
+}
